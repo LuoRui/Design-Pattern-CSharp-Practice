@@ -25,7 +25,7 @@ namespace CompositePattern
             headSales.Add(salesExecutive1);
             headSales.Add(salesExecutive2);
             headMarketing.Add(clerk1);
-            headMarketing.Add(clerk1);
+            headMarketing.Add(clerk2);
 
             Console.WriteLine(CEO.ToString());
             foreach (Employee headEmployee in CEO.GetSubordinates())
